@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/* 首页顶部开始 */
+.hearid{
+	padding: 0.6rem 0.3rem 0 0.27rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.positio{
+	overflow: hidden;
+}
+.iimg{
+	width: 1.0rem;
+	height: 0.35rem;
+	float: left;
+	padding-top: 0.12rem;
+	box-sizing: border-box;
+}
+.iimg img{
+	width: 100%;
+	display: block;
+}
+.tuomin{
+	font-size: 0.34rem;
+	color: #232323;
+	font-weight: 600;
+	float: left;
+}
+.iccon{
+	overflow: hidden;
+}
+.iccon i{
+	font-size: 0.3rem;
+	color: #6c6c6c;
+	display: block;
+}
+.screea{
+	position: relative;
+}
+.screea input{
+	width: 2.6rem;
+	height: 0.56rem;
+	display: block;
+	background: #f4f4f4;
+	border-radius: 0.28rem;
+	border: none;
+	outline: none;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+}
+.screea i{
+	font-size: 0.3rem;
+	color: #e5e5e5;
+	display: block;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+input::-webkit-input-placeholder {
+	color: #e5e5e5;
+	}
+.twow i{
+	font-size: 0.4rem;
+	color: #6b6b6b;
+	display: block;
+	float: left;
+}
+/* 首页顶部结束 */
+/* 选项栏开始 */
+.option{
+	margin: 0.28rem 0.3rem 0 0.15rem;
+	overflow: hidden;
+}
+.teext{
+	display: flex;
+	align-items: center;
+	float: left;
+	
+}
+.pitch{
+	font-size: 0.36rem;
+	font-weight: 700;
+	color: #434343;
+	float: left;
+}
+.nopitch{
+	font-size: 0.3rem;
+	font-weight: 600;
+	color: #666666;
+	margin-left: 0.56rem;
+	float: left;
+}
+.colo{
+	width: 0.38rem;
+	height: 0.38rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	float: right;
+	margin-top: 0.07rem;
+}
+.redcol{
+	width: 0.17rem;
+	height: 0.17rem;
+	background: #ff4a91;
+	border: 0.05rem solid #c75c7f;
+	border-radius: 50%;
+	box-sizing: border-box;
+	
+}
+.redcol.one{
+	background: #52c7ff;
+	border: 0.05rem solid #77b9d7;
+}
+.redcol.two{
+	background: #ffd537;
+	border: 0.05rem solid #ece08e;
+}
+.redcol.scrre{
+	background: #ff86ff;
+	border: 0.05rem solid #ed92df;
+}
+/* 选项栏结束 */
+/* 轮播图开始 */
+.iiimmg{
+	width: 6.96rem;
+	height: 2.4rem;
+	margin: 0 auto;
+	background: red;
+	margin-top: 0.4rem;
+}
+.iiimmg img{
+	width: 100%;
+	display: block;
+}
+
+/* 轮播图结束 */
+/* 小标题开始 */
+.marrk{
+	padding: 0 0.87rem;
+	display: flex;
+	justify-content: space-between;
+}
+.smallmar{
+	display: flex;
+	align-items: center;
+	margin: 0.25rem 0 0.25rem;
+}
+.onep{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #e0e0e0;
+	margin-right: 0.1rem;
+}
+.twop{
+	font-size: 0.28rem;
+	color: #9b9b9b;
+
+}
+/* 小标题结束 */
+/* 会员签到开始 */
+.member{
+	padding: 0 0.14rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.memb{
+	width: 1.2rem;
+}
+.memberimg{
+	width: 0.87rem;
+	height: 0.87rem;
+	margin: 0 auto;
+}
+.memberimg img{
+	width: 100%;
+	display: block;
+	
+}
+.memb p{
+	font-size: 0.24rem;
+	color: #000000;
+	text-align: center;
+}
+
+/* 会员签到结束 */
+/* 推荐图开始 */
+.recommend{
+	padding: 0 0.27rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0.34rem 0 0.26rem;
+	
+}
+.recommimg{
+	width: 3.45rem;
+	height: 1.58rem;
+	margin-bottom: 0.1rem;
+}
+.recommimg img{
+	width: 100%;
+}
+.oneline{
+	width: 6.96rem;
+	height: 0.02rem;
+	background: #f4f4f4;
+	margin: 0 auto;
+}
+/* 推荐图结束 */
+/* 分类开始 */
+.classify{
+	padding: 0 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0.25rem 0 0.4rem;
+}
+.classiimg{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+.classiimg img{
+	width: 100%;
+	display: block;
+}
+.oneclassify{
+	width: 0.75rem;
+	margin:0 0.7rem 0.12rem 0;
+}
+.oneclassify.one{
+	margin-right: 0;
+}
+.oneclassify h5{
+	color: #444444;
+	font-size: 0.24rem;
+	margin-top: 0.05rem;
+	text-align: center;
+}
+/* 分类结束 */
+/* 省钱攻略开始 */
+.save{
+	padding-left: 0.26rem;
+	box-sizing: border-box;
+}
+.saveback{
+	width: 6.6rem;
+	height: 0.7rem;
+	background: #f8f8f8;
+	display: flex;
+	align-items: center;
+	padding: 0 0.4rem 0 0.27rem;
+	box-sizing: border-box;
+}
+.saveimg{
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+}
+.saveimg img{
+	width: 100%;
+	display: block;
+}
+.savel{
+	font-size: 0.26rem;
+	font-weight: 600;
+	color: #000000;
+	margin-left: 0.1rem;
+}
+.saveyell{
+	font-size: 0.26rem;
+	font-weight: 600;
+	color: #f9b32a;
+	margin-left: 0.05rem;
+
+}
+.saveback p{
+	font-size: 0.24rem;
+	color: #444444;
+	margin-left: 1rem;
+}
+/* 省钱攻略结束 */
+/* 首单图开始 */
+.frist{
+	width: 7.05rem;
+	height: 2.57rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
+.frist img{
+	width: 100%;
+	display: block; 
+}
+/* 首单图结束 */
